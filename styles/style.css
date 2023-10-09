@@ -64,7 +64,7 @@ blockquote  {
 .header__menu-link {
   color: #f5f5f5;
   text-decoration: none;
-  border-bottom: #f5f5f5; 1px solid;
+  border-bottom: 1px solid #f5f5f5;
 }
 
 .content-section_theme_dark {
@@ -89,13 +89,11 @@ blockquote  {
 }
 
 .cover-title {
-  display: block;
-  height: 221px;
   row-gap: 0;
   font-family: 'EB Garamond', 'Times New Roman', serif;
   font-weight: 400;
   font-size: 72px;
-  line-height: 100%;
+  line-height: 72px;
   margin-right: 20px;
 }
 
@@ -232,7 +230,7 @@ blockquote  {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-top: #fee42a 1px solid;
+  border-top: 1px solid #fee42a ;
   padding: 20px;
 
 }
