@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  width: 360px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0px 20px 0;
+  background-color: #131313;
+  color: #f5f5f5;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-logo {
+  width: 78.45px;
+  height: 15.43px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  list-style: none;
+}
+
+.header__menu-item {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.header__menu-link_active {
+  color: #f5f5f5;
+  text-decoration: none;
+  line-height: 19.2px;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+  text-decoration: none;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.cover {
+  height: 221px;
+  display: block;
+  background-color: #131313;
+  background-image: url(../images/cover.svg);
+  background-position: right;
+  background-size: 339px 198px;
+  background-repeat: no-repeat;
+  padding: 9px 0 30px 0;
+  margin-right: -20px;
+}
+
+.cover-title {
+  row-gap: 0;
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  margin-right: 20px;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  display: block;
+  text-align: center;
+}
+
+.text-right {
+  display: block;
+  text-align: right;
+}
+
+.intro {
+ display: block;
+ padding: 0 20px 38px 20px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.intro__title {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ccc;
+}
+
+.intro__date {
+  color: #ccc;
+  text-wrap: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+  padding-top: 40px;
+}
+
+.content-section__introduction {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 32px 0;
+}
+
+.content-section__list {
+  display: flex;
+  row-gap: 16px;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-bottom: 40px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.content-section_theme_dark {
+  background-color: #343434;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  list-style: none;
+  padding-bottom: 60px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card-title {
+  font-family: 'EB Garamond', 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fee42a;
+  padding: 20px;
+}
+
+ .footer_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 16px;
+  list-style: none;
+ }
+
+ .footer__links {
+  font-size: 14px;
+  line-height: 125%;
+  color:#f5f5f5;
+  list-style: none;
+  text-decoration: none;
+ }
